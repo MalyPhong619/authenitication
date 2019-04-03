@@ -1,0 +1,17 @@
+[debug] [2019-04-03T23:43:29.045Z] ----------------------------------------------------------------------
+[debug] [2019-04-03T23:43:29.047Z] Command:       /usr/local/bin/node /usr/local/bin/firebase open
+[debug] [2019-04-03T23:43:29.047Z] CLI Version:   6.5.1
+[debug] [2019-04-03T23:43:29.047Z] Platform:      darwin
+[debug] [2019-04-03T23:43:29.047Z] Node Version:  v8.11.3
+[debug] [2019-04-03T23:43:29.048Z] Time:          Wed Apr 03 2019 16:43:29 GMT-0700 (PDT)
+[debug] [2019-04-03T23:43:29.048Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-03T23:43:29.054Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-03T23:43:29.054Z] > authorizing via signed-in user
+[debug] [2019-04-03T23:43:29.054Z] [iam] checking project album-store-b19a7 for permissions ["firebase.projects.get"]
+[debug] [2019-04-03T23:43:29.056Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/album-store-b19a7:testIamPermissions  
+
+[debug] [2019-04-03T23:43:29.208Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-03T23:43:29.209Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/album-store-b19a7  
+ 
+[debug] [2019-04-03T23:43:29.345Z] <<< HTTP RESPONSE 200
