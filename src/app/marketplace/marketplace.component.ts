@@ -22,7 +22,9 @@ export class MarketplaceComponent implements OnInit {
   albums: FirebaseListObservable<any[]>;
 
    goToDetailPage(clickedAlbum: Album) {
-    // this.router.navigate(['albums', clickedAlbum.id]);
+     goToDetailPage(clickedAlbum) {
+     this.router.navigate(['albums', clickedAlbum.$key]);
+   };
   };
 
 }
