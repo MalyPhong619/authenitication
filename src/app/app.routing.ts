@@ -5,6 +5,7 @@ import { AboutComponent } from './about/about.component';
 import { MarketplaceComponent } from './marketplace/marketplace.component';
 import { AlbumDetailComponent }   from './album-detail/album-detail.component';
 import { AdminComponent }   from './admin/admin.component';
+import { ShoesComponent }   from './shoes/shoes.component';
 
 const appRoutes: Routes = [
   {
@@ -26,6 +27,10 @@ const appRoutes: Routes = [
   {
     path: 'admin',
     component: AdminComponent
+  },
+  {
+    path: 'shoes',
+    component: ShoesComponent
   }
 ];
 

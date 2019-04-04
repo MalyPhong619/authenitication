@@ -1,0 +1,12 @@
+<div *ngFor="let shoe of shoes"  class="panel panel-default">
+  <div class="panel-body">
+    <h3><em>{{shoe.style}}</em></h3>
+    <div>
+      <img src="{{shoe.image}}" alt="shoe">
+      <ul>
+        <li>color: {{shoe.color}}</li>
+        <li>${{shoe.price}}</li>
+      </ul>
+    </div>
+  </div>
+</div>
