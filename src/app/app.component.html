@@ -12,7 +12,7 @@
 
     <ul class="nav navbar-nav navbar-right">
       <li *ngIf="isLoggedIn">
-        <a (click)="logout()">Log out</a>
+        <a routerLink="/" (click)="logout()">Log out</a>
         <footer class="footer">
           <div class="container">
             <a class="text-muted" routerLink="admin">Admin</a>

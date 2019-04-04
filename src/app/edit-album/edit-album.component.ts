@@ -5,7 +5,7 @@ import { AlbumService } from '../album.service';
 @Component({
   selector: 'app-edit-album',
   templateUrl: './edit-album.component.html',
-  styleUrls: ['./edit-album.component.css'],
+  styleUrls: ['./edit-album.component.scss'],
   providers: [AlbumService]
 })
 export class EditAlbumComponent implements OnInit {
